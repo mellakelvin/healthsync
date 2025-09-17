@@ -1,0 +1,41 @@
+body {
+  background: #f4f4f4 !important;
+}
+.loading-content {
+  height: 4px;
+  width: 100%;
+}
+
+.loading-strip {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #0d6efd 25%,
+    #6ea8fe 50%,
+    #0d6efd 75%,
+    #ffffff 100%
+  );
+  background-size: 300% 100%;
+  animation: loading-animation 2s linear infinite;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes loading-animation {
+  0% {
+    background-position: 300% 0;
+  }
+
+  100% {
+    background-position: -300% 0;
+  }
+}
+
+@keyframes loading-animation {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
