@@ -2,7 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) session_start();
 
 $servername = "127.0.0.1";
-$username = "root";
+$username = "";
 $password = "";
 $database = "database";
 
